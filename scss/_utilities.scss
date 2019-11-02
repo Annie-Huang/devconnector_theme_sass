@@ -1,0 +1,7 @@
+// Backgrounds
+.bg {
+  &-primary {
+    // Because the order of style.scss, by the time this file is called, _config.scss is already imported into sytle.scss
+    @include set-background($primary-color);
+  }
+}
