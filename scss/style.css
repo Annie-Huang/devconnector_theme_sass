@@ -12,4 +12,17 @@ body {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

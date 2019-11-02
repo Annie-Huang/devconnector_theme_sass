@@ -16,3 +16,16 @@ body {
   background-color: #fff;
   color: #333;
 }
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
