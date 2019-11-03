@@ -214,6 +214,31 @@
   color: #fff;
 }
 
+.badge {
+  font-size: 0.8rem;
+  padding: 0.1rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: #f4f4f4;
+  color: #333;
+}
+.badge.badge-primary {
+  background-color: #17a2b8;
+  color: #fff;
+}
+.badge.badge-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+.badge.badge-success {
+  background-color: #28a745;
+  color: #fff;
+}
+.badge.badge-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
 .dark-overlay {
   height: 100%;
   width: 100%;
