@@ -4,5 +4,6 @@ https://github.com/bradtraversy/devconnector_theme_sass
 
 https://fonts.google.com/specimen/Raleway
 https://en.gravatar.com/site/implement/images/
+https://fontawesome.com/v4.7.0/icon/connectdevelop
 
 =============================
