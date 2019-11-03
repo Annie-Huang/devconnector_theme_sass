@@ -30,7 +30,11 @@
 .round-img {
   border-radius: 50%;
 }
-
+.line { // This is another way to do linebreak
+  height: 1px;
+  background: #ccc;
+  margin: 1.5rem 0;
+}
 
 // Backgrounds
 .bg {
@@ -124,6 +128,9 @@
     @include set-background($danger-color);
   }
 }
+
+// Badges
+
 
 .dark-overlay {
   height: 100%;

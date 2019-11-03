@@ -120,6 +120,13 @@ img {
   }
   .profile-about {
     grid-area: about;
+    text-align: center;
+    .skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }
   .profile-exp {
     grid-area: exp;
@@ -127,8 +134,38 @@ img {
   .profile-edu {
     grid-area: edu;
   }
+  .profile-exp,
+  .profile-edu { // First div under the class
+    & > div {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: #ccc 1px dotted;
+      &:last-child {
+        border: none;
+      }
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+  }
   .profile-github {
     grid-area: github;
+    .repo {
+      display: flex;
+      & > div:first-child {
+        // The flex property sets the flexible length on flexible items.
+        // This is for 7 fr over (7+3)=10fr
+        flex: 7;
+        // The flex-basis property specifies the initial length of a flexible item.
+        // This is the initial value of the TOTAL length.
+        // So the first item occupies 70% and the second item occupies 20% initially
+        flex-basis: 70%;
+      }
+      & > div:last-child {
+        flex: 3;
+        flex-basis: 20%;
+      }
+    }
   }
 }
 
